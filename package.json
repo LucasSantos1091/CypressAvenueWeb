@@ -1,0 +1,22 @@
+{
+    "name": "TestAvenue",
+    "version": "1.0.0",
+    "description": "Repositório do Teste",
+    "scripts": {
+        "cy:open": "cypress open",
+        "test": "cypress run"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LucasSantos1091/CypressAvenueWeb"
+    },
+    "keywords": [
+        "Testing",
+        "Cypress.io",
+        "Cypress Básico"
+    ],
+    "author": "Lucas Santos",
+    "devDependencies": {
+        "cypress": "^9.5.1"
+    }
+}
