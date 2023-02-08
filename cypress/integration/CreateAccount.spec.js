@@ -1,7 +1,5 @@
 /// <reference types="Cypress" />
 
-const Name = require('faker-br/lib/name');
-
 //import loc from "../../support/locators.js";
 const loc = require('../support/locators').LOCATORS;
 beforeEach(function() {
