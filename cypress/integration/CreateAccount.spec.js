@@ -20,11 +20,7 @@ describe('Cenário03', function() {
         cy.get(loc.Email).type(email);
         cy.get(loc.Password).type(password);
         cy.get(loc.ConfirmPassword).type(password);
-        //cy.get(loc.Pesquisa).click();
-        //cy.get(loc.Item01).click();
-        // cy.get(loc.BotaoCarrinho).click();
-        //  cy.get(loc.FecharPedido).click();
-        // cy.contains('Subtotal (1 item)')
+
 
 
     })
