@@ -5,7 +5,7 @@ beforeEach(function() {
     cy.visit('https://www.amazon.com.br/')
 })
 
-describe('Cenário01', function() {
+describe('Cenário00', function() {
     it('Adicionar um produto no carrinho', function() {
         cy.get(loc.Objeto).type('memoria ram');
         cy.get(loc.Pesquisa).click();
